@@ -18,7 +18,7 @@ This is a quick script that I wrote to get a fresh CentOS configured for the Lea
  download the script to your new Cent 
  instance:
  
-      git clone https://github.com/rmeals/LearningLocker_Scripted_Install
+      wget https://github.com/rmeals/LearningLocker_Scripted_Install/blob/master/in_base.sh
  
  Finally, run this command to make the script 
  executable and finally, run the scrit:
