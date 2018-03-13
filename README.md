@@ -6,18 +6,25 @@ Learning Locker System Prep Script. Configured to be installed on a fresh CentOS
 
 Download and install Cent, Ensure you have network connectivity and login as root.
 
+I would suggest that you add a user to the wheel group, named learninglocker before you start the below.
+
+       adduser learninglocker
+       passwd learninglocker
+       usermod -aG wheel learninglocker
+
 Suggest that you install wget:
  
       yum install wget
  
  Then run the following command to download the script to your new Cent instance:
  
-      wget https://github.com/rmeals/LearningLocker_Scripted_Install/blob/master/in_base.sh
+      git clone https://github.com/rmeals/LearningLocker_Scripted_Install
  
  
 Finally, run this command to make the script executable and finally, run the scrit:
  
-      chmod 755 ~/in_base.sh
+      cd LearningLocker_Scripted_Install
+      chmod 755 in_base.sh
       bash in_base.sh
  
 
