@@ -21,7 +21,7 @@ Suggest that you install wget:
       git clone https://github.com/rmeals/LearningLocker_Scripted_Install
  
  
-Finally, run this command to make the script executable and finally, run the scrit:
+Finally, run this command to make the script executable and finally, run the script:
  
       cd LearningLocker_Scripted_Install
       chmod 755 in_base.sh
