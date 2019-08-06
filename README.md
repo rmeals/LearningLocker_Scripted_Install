@@ -14,7 +14,7 @@ I would suggest that you add a user to the wheel group, named learninglocker bef
 
 Suggest that you install wget:
  
-      yum install wget
+      yum install wget -y
  
  Then run the following command to download the script to your new Cent instance:
  
