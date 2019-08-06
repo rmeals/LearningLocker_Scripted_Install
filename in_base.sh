@@ -4,11 +4,7 @@
 #######################################
 
 yum -y update
-yum -y install git 
-yum -y install nano 
-yum -y install gcc gcc-c++
-yum -y install curl
-yum -y install wget
+yum -y install git nano gcc gcc-c++ curl wget  
 
 #######################################
 #   Download and install NodeJS 8.x   #
